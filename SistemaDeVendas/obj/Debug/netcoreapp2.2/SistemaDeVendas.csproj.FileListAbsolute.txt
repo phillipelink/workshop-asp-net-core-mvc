@@ -35,7 +35,6 @@ C:\Estudos\SistemaDeVendas\SistemaDeVendas\bin\Debug\netcoreapp2.2\SistemaDeVend
 C:\Estudos\SistemaDeVendas\SistemaDeVendas\bin\Debug\netcoreapp2.2\SistemaDeVendas.pdb
 C:\Estudos\SistemaDeVendas\SistemaDeVendas\bin\Debug\netcoreapp2.2\SistemaDeVendas.Views.dll
 C:\Estudos\SistemaDeVendas\SistemaDeVendas\bin\Debug\netcoreapp2.2\SistemaDeVendas.Views.pdb
-C:\Estudos\SistemaDeVendas\SistemaDeVendas\obj\Debug\netcoreapp2.2\SistemaDeVendas.csprojAssemblyReference.cache
 C:\Estudos\SistemaDeVendas\SistemaDeVendas\obj\Debug\netcoreapp2.2\SistemaDeVendas.csproj.CoreCompileInputs.cache
 C:\Estudos\SistemaDeVendas\SistemaDeVendas\obj\Debug\netcoreapp2.2\SistemaDeVendas.RazorAssemblyInfo.cache
 C:\Estudos\SistemaDeVendas\SistemaDeVendas\obj\Debug\netcoreapp2.2\SistemaDeVendas.RazorAssemblyInfo.cs
@@ -58,3 +57,5 @@ C:\Estudos\SistemaDeVendas\SistemaDeVendas\obj\Debug\netcoreapp2.2\SistemaDeVend
 C:\Estudos\SistemaDeVendas\SistemaDeVendas\obj\Debug\netcoreapp2.2\SistemaDeVendas.dll
 C:\Estudos\SistemaDeVendas\SistemaDeVendas\obj\Debug\netcoreapp2.2\SistemaDeVendas.pdb
 C:\Estudos\SistemaDeVendas\SistemaDeVendas\obj\Debug\netcoreapp2.2\SistemaDeVendas.csproj.CopyComplete
+C:\Estudos\SistemaDeVendas\SistemaDeVendas\obj\Debug\netcoreapp2.2\SistemaDeVendas.csprojAssemblyReference.cache
+C:\Estudos\SistemaDeVendas\SistemaDeVendas\obj\Debug\netcoreapp2.2\Razor\Views\Departamentos\Index.g.cshtml.cs
