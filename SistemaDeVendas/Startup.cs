@@ -36,12 +36,17 @@ namespace SistemaDeVendas
 
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
 
+<<<<<<< HEAD
             //Definir o dbcontext para injeção de dependencia
             services.AddDbContext<SistemaDeVendasContext>(options =>
             //Delegate para passar a chamada com o nome da nossa classe de context 
                     options.UseMySql(Configuration.GetConnectionString("SistemaDeVendasContext"), 
             //Outro delegate para configuração do Mysql passando no builder.MigrationsAssembly o nome do Projeto
                         builder => builder.MigrationsAssembly("SistemaDeVendas")));
+=======
+            services.AddDbContext<SistemaDeVendasContext>(options =>
+                    options.UseSqlServer(Configuration.GetConnectionString("SistemaDeVendasContext")));
+>>>>>>> a1309dbc5eea294285497da5f3408f3f90be9759
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
