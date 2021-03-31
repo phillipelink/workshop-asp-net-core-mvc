@@ -57,4 +57,9 @@ C:\Estudos\SistemaDeVendas\SistemaDeVendas\obj\Debug\netcoreapp2.2\SistemaDeVend
 C:\Estudos\SistemaDeVendas\SistemaDeVendas\obj\Debug\netcoreapp2.2\SistemaDeVendas.dll
 C:\Estudos\SistemaDeVendas\SistemaDeVendas\obj\Debug\netcoreapp2.2\SistemaDeVendas.pdb
 C:\Estudos\SistemaDeVendas\SistemaDeVendas\obj\Debug\netcoreapp2.2\SistemaDeVendas.csproj.CopyComplete
+C:\Estudos\SistemaDeVendas\SistemaDeVendas\obj\Debug\netcoreapp2.2\Razor\Views\Departamentos\Create.g.cshtml.cs
+C:\Estudos\SistemaDeVendas\SistemaDeVendas\obj\Debug\netcoreapp2.2\Razor\Views\Departamentos\Delete.g.cshtml.cs
+C:\Estudos\SistemaDeVendas\SistemaDeVendas\obj\Debug\netcoreapp2.2\Razor\Views\Departamentos\Details.g.cshtml.cs
+C:\Estudos\SistemaDeVendas\SistemaDeVendas\obj\Debug\netcoreapp2.2\Razor\Views\Departamentos\Edit.g.cshtml.cs
+C:\Estudos\SistemaDeVendas\SistemaDeVendas\obj\Debug\netcoreapp2.2\Razor\Views\Departamentos\Index.g.cshtml.cs
 C:\Estudos\SistemaDeVendas\SistemaDeVendas\obj\Debug\netcoreapp2.2\SistemaDeVendas.csprojAssemblyReference.cache
