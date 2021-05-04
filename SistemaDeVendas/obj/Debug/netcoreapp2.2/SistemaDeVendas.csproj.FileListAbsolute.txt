@@ -33,3 +33,4 @@ C:\Estudos\SistemaDeVendas\SistemaDeVendas\obj\Debug\netcoreapp2.2\SistemaDeVend
 C:\Estudos\SistemaDeVendas\SistemaDeVendas\obj\Debug\netcoreapp2.2\SistemaDeVendas.dll
 C:\Estudos\SistemaDeVendas\SistemaDeVendas\obj\Debug\netcoreapp2.2\SistemaDeVendas.pdb
 C:\Estudos\SistemaDeVendas\SistemaDeVendas\obj\Debug\netcoreapp2.2\SistemaDeVendas.csproj.CopyComplete
+C:\Estudos\SistemaDeVendas\SistemaDeVendas\obj\Debug\netcoreapp2.2\Razor\Views\Vendedores\Index.g.cshtml.cs
