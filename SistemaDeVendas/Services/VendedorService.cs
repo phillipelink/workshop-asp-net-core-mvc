@@ -26,7 +26,11 @@ namespace SistemaDeVendas.Services
 
         public void Inserir(Vendedor obj)
         {
+            //Pegando o primeiro departamento que tem no banco
+            obj.Departamento = _context.Departamento.First();
+            //Adicionando o objeto
             _context.Add(obj);
+            //salvando no banco
             _context.SaveChanges();
         }
 

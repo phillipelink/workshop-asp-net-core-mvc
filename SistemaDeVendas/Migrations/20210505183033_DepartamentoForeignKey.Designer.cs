@@ -2,15 +2,17 @@
 using System;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using SistemaDeVendas.Models;
 
 namespace SistemaDeVendas.Migrations
 {
     [DbContext(typeof(SistemaDeVendasContext))]
-    partial class SistemaDeVendasContextModelSnapshot : ModelSnapshot
+    [Migration("20210505183033_DepartamentoForeignKey")]
+    partial class DepartamentoForeignKey
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

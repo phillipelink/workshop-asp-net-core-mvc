@@ -13,6 +13,7 @@ namespace SistemaDeVendas.Models
         public DateTime DataNascimento { get; set; }
         public double BaseSalarial { get; set; }
         public Departamento Departamento { get; set; }
+        public int DepartamentoId { get; set; }
         public ICollection<RegistroDeVendas> Vendas { get; set; } = new List<RegistroDeVendas>();
 
         public Vendedor()
