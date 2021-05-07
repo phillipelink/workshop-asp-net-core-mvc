@@ -14,6 +14,7 @@ namespace SistemaDeVendas.Services
 
         private readonly SistemaDeVendasContext _context;
 
+        //Injeção da dependencia
         public VendedorService(SistemaDeVendasContext context)
         {
             _context = context;
@@ -27,7 +28,7 @@ namespace SistemaDeVendas.Services
         public void Inserir(Vendedor obj)
         {
             //Pegando o primeiro departamento que tem no banco
-            obj.Departamento = _context.Departamento.First();
+           // obj.Departamento = _context.Departamento.First();
             //Adicionando o objeto
             _context.Add(obj);
             //salvando no banco

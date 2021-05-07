@@ -51,6 +51,7 @@ namespace SistemaDeVendas
             //Registrando serviço no sistema de injenção de dependencia da aplicação
             services.AddScoped<SeedingService>();
             services.AddScoped<VendedorService>();
+            services.AddScoped<DepartamentoService>();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

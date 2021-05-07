@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
 using SistemaDeVendas.Models;
+using SistemaDeVendas.Models.ViewModels;
 using SistemaDeVendas.Services;
 
 namespace SistemaDeVendas.Controllers
@@ -12,11 +13,13 @@ namespace SistemaDeVendas.Controllers
     {
         //Declarar dependencia para o VendedorService
         public readonly VendedorService _vendedorService;
+        public readonly DepartamentoService _departamentoService;
 
         //Criar o construtor para injetar a dependencia
-        public VendedoresController(VendedorService vendedorService)
+        public VendedoresController(VendedorService vendedorService, DepartamentoService departamentoService)
         {
             _vendedorService  = vendedorService;
+            _departamentoService = departamentoService;
         }
 
         public IActionResult Index()
@@ -27,7 +30,9 @@ namespace SistemaDeVendas.Controllers
 
         public IActionResult Create()
         {
-            return View();
+            var departamentos = _departamentoService.FindAllDepartaments();
+            var viewModel = new VendedorFormViewModel { Departamentos = departamentos };
+            return View(viewModel);
         }
 
         [HttpPost]
